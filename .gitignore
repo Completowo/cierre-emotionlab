@@ -1,0 +1,80 @@
+# =========================================
+# UNITY BASE IGNORE
+# =========================================
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+MemoryCaptures/
+Recordings/
+.vs/
+.gradle/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+sysinfo.txt
+*.apk
+*.aab
+*.unitypackage
+*.app
+ExportedObj/
+.consulo/
+
+# =========================================
+# IGNORAR ASSETS PESADOS
+# =========================================
+# Modelos 3D, texturas, audio, materiales, etc.
+Assets/**/*.fbx
+Assets/**/*.obj
+Assets/**/*.blend
+Assets/**/*.3ds
+Assets/**/*.max
+Assets/**/*.png
+Assets/**/*.jpg
+Assets/**/*.jpeg
+Assets/**/*.tga
+Assets/**/*.psd
+Assets/**/*.tif
+Assets/**/*.tiff
+Assets/**/*.exr
+Assets/**/*.wav
+Assets/**/*.mp3
+Assets/**/*.ogg
+Assets/**/*.mp4
+Assets/**/*.mov
+Assets/**/*.avi
+Assets/**/*.mat
+Assets/**/*.prefab
+Assets/**/*.asset
+Assets/**/*.unitypackage
+
+# =========================================
+# PERMITIR CÓDIGO Y ESCENAS
+# =========================================
+!Assets/**/*.cs
+!Assets/**/*.shader
+!Assets/**/*.cginc
+!Assets/**/*.compute
+!Assets/**/*.scene
+!Assets/**/*.unity
+!Assets/**/*.meta
+
+# =========================================
+# IGNORAR OTROS
+# =========================================
+.DS_Store
+Thumbs.db
+# Ignorar archivos de Unity Plastic SCM
+/.plastic/
